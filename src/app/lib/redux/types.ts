@@ -5,7 +5,7 @@ export interface ResumeProfile {
   url: string;
   summary: string;
   location: string;
-  avatar: string;
+  avatar?: string;
 }
 
 export interface ResumeWorkExperience {
