@@ -39,7 +39,7 @@ export const TopNavBar = () => {
           className="flex items-center gap-2 text-sm font-medium"
         >
           {[
-            ["/", "Trang chủ"],
+            ["https://sdu-jobquest.vercel.app/", "Trang chủ"],
             ["http://localhost:3002/resume-builder", "Tạo CV"],
           ].map(([href, text]) => (
             <Link
